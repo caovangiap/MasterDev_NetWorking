@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MasterDev_NetWorking</string>
+    <string name="PhoneShop">Nhập User Name</string>
+    <string name="Pass">Nhập PassWord</string>
+    <string name="Wellcome">Wellcome</string>
+    <string name="Intro">This Is Your Story Image</string>
+    <string name="CheckPesmission">Chức năng này cần được cấp quyền</string>
+    <string name="permission">Permission</string>
+</resources>

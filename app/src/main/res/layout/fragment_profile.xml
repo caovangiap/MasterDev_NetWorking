@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="ViweModel"
+            type="com.example.masterdev_networking.viewModel.ViewModelLogin" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/ToolBar"
+            app:title="Profile"
+            />
+
+        <ImageView
+            android:id="@+id/Avatar"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:elevation="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHeight_percent="0.13"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.132"
+            app:layout_constraintWidth_percent="0.2" />
+
+        <TextView
+            android:id="@+id/UserName"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHeight_percent="0.05"
+            app:layout_constraintHorizontal_bias="0.453"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Avatar"
+            app:layout_constraintVertical_bias="0.057"
+            app:layout_constraintWidth_percent="0.7"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/UserPhone"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHeight_percent="0.05"
+            app:layout_constraintHorizontal_bias="0.455"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Avatar"
+            app:layout_constraintVertical_bias="0.146"
+            app:layout_constraintWidth_percent="0.7"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/UserCurentAddress"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHeight_percent="0.05"
+            app:layout_constraintHorizontal_bias="0.455"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Avatar"
+            app:layout_constraintVertical_bias="0.254"
+            app:layout_constraintWidth_percent="0.7"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/UserOld"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHeight_percent="0.05"
+            app:layout_constraintHorizontal_bias="0.455"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Avatar"
+            app:layout_constraintVertical_bias="0.372"
+            app:layout_constraintWidth_percent="0.7"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/UserSchool"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHeight_percent="0.05"
+            app:layout_constraintHorizontal_bias="0.455"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Avatar"
+            app:layout_constraintVertical_bias="0.491"
+            app:layout_constraintWidth_percent="0.7"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/allInfomation"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHeight_percent="0.25"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.901"
+            app:layout_constraintWidth_percent="0.8"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
